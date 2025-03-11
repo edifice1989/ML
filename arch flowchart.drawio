@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Page-1" id="9kpNyBw8haSW8rg9bhNA">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Monitoring" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2501" y="8" width="260" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="User-Interaction" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2501" y="152" width="260" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Model-Deployment" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1744" y="20" width="509" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="Model-Training" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1025" y="141" width="588" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Data-Preprocessing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="8" y="141" width="855" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Data Collection" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="33" y="176" width="170" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Data Cleaning" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="176" width="159" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Feature Engineering" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="634" y="176" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Model Development" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="176" width="202" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Model Evaluation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1405" y="176" width="182" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Model Serialization" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1769" y="176" width="196" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="Model-Serving" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2068" y="176" width="160" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="Response Generation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2526" y="197" width="210" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="Monitoring" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2564" y="43" width="136" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Raw Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Cleaned Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="Processed Data" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Trained Model" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Best Model" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Deploy" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Queries" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.19;" edge="1" parent="1" source="13" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2501" y="203" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Responses" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.92;entryY=1;" edge="1" parent="1" source="14" target="13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2501" y="246" />
+              <mxPoint x="2253" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Model Performance Metrics" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=0;entryX=0;entryY=0.5;" edge="1" parent="1" source="13" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2253" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
